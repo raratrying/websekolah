@@ -1,16 +1,22 @@
 body {
   min-height: 3000px;
-  font-family: "Poppins";
-  background-color: rgb(169, 169, 248);
+  font-family: "Poppins", arial;
+  background-color: rgb(238, 238, 246);
 }
 
 /* style.css */
 
 .home {
   position: relative;
-  background: url("img/smk.jpg") no-repeat center center fixed ;
+  background: url("img/smk.jpg") no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
+}
+
+.lead {
+  background-color: rgb(217, 217, 209);
+  font-weight: bold;
+  padding: 8px;
 }
 
 .home::before {
@@ -38,7 +44,7 @@ body {
 }
 
 #projects {
-  background-color: rgb(198, 199, 255);
+  background-color: rgb(112, 112, 127);
 }
 
 section {
@@ -60,7 +66,7 @@ section {
 .navbar-toggler-icon,
 .collapse .navbar-collapse,
 .navbar-nav .ms-auto {
-  background-color: rgb(52, 116, 235);
+  background-color: rgb(75, 81, 93);
   font-size: 24px;
 }
 h2,
